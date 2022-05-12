@@ -1,0 +1,81 @@
+.desc {
+  height: 50%;
+  width: 100%;
+  color: white;
+  margin-bottom: 1%;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.desc__box {
+  display: flex;
+  min-height: 300px;
+  position: relative;
+  min-width: 220px;
+}
+
+.desc__close {
+  top: 15px;
+  right: 15px;
+  position: absolute;
+  cursor: pointer;
+}
+
+.desc__close > .MuiSvgIcon-root {
+  font-size: 50px;
+}
+
+.desc__description {
+  margin-top: 50px;
+  color: gray;
+}
+
+.desc__box > .desc__content {
+  /* padding: 4rem 0.8rem;*/
+  padding: 50px 4%;
+  padding-top: 25px;
+  padding-right: 0;
+  width: 600px;
+  max-width: 50%;
+  background-color: rgba(0, 0, 0, 0.303);
+  font-size: 50px;
+}
+
+.desc__img {
+  flex: 1;
+  background-size: 70px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.desc__heading {
+  margin: 0;
+  font-weight: 60;
+  font-size: 50px;
+  margin-bottom: 1rem;
+}
+
+.desc__box > .desc__content h5 {
+  display: flex;
+  align-items: center;
+  font-weight: 40;
+  text-transform: uppercase;
+  font-size: inherit;
+}
+
+.desc__box > .desc__content h5 span {
+  padding-right: 8px;
+}
+
+.desc__buttons {
+  display: flex;
+  margin-top: 12%;
+  align-items: center;
+}
+
+.desc__buttons > .button__text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+}
