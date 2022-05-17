@@ -14,8 +14,9 @@ const Home =()=> {
         </div>
         <div className="navbar-links">
           <a href="/">Home</a>
-          <a href="/">About</a>
-          <a href="/">Contact</a>
+          <a href="/">Movies</a>
+          <a href="/">TV Shows</a>
+          <a href="/">New and Popular</a>
         </div>
         <div className="search-bar">
           <FeatherIcons icon="search" size="24" />

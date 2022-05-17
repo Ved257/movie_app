@@ -33,7 +33,7 @@ const Row = ({ title, fetchUrl, isLargeRow }) => {
     }
     fetchData();
   }, [fetchUrl]);
-  
+
 
   // const MovieTrailer = async (movie) => {
   //   if (movie) {
